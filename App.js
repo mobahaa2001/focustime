@@ -21,7 +21,7 @@ export default function App() {
         <Timer
           focusSub={currentSub}
           onTimerEnd={() => {}}
-          clearSub={() => {}}
+          clearSub={() => setCurrentSub(null)}
         />
       )}
     </SafeAreaView>
