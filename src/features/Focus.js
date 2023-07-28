@@ -23,9 +23,7 @@ const Focus = ({ addSub }) => {
 export default Focus;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
+  container: {},
   inputContainer: {
     padding: spaceing.lg,
     justifyContent: "space-between",
